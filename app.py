@@ -1,3 +1,7 @@
+
+import os
+import gdown
+import tensorflow as tf
 import streamlit as st
 import numpy as np
 import cv2
@@ -5,7 +9,14 @@ import tensorflow as tf
 from PIL import Image
 
 # Load trained model
-model = tf.keras.models.load_model("models/tb_cnn_model.keras")
+MODEL_PATH = "tb_cnn_model.keras"
+
+if not os.path.exists(MODEL_PATH):
+    url = "https://drive.google.com/uc?id=1szP-fOXMJh70e0Di8f7-ea1x8cx8T9ix"
+    gdown.download(url, MODEL_PATH, quiet=False)
+
+model = tf.keras.models.load_model(MODEL_PATH)
+
 
 IMG_SIZE = 224
 
