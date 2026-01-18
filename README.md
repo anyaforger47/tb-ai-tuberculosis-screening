@@ -1,14 +1,14 @@
-🫁 AI-Based Tuberculosis Screening from Chest X-Rays
-📌 Project Overview
+ AI-Based Tuberculosis Screening from Chest X-Rays
+ Project Overview
 
 This project implements an AI-based Tuberculosis (TB) screening system using chest X-ray images.
 The system leverages a Convolutional Neural Network (CNN) to classify X-rays as TB-positive or Normal and is deployed as a web application using Streamlit.
 
 The goal of this project is to demonstrate an end-to-end medical AI pipeline, including data preprocessing, model training, evaluation using clinical metrics, and real-world deployment considerations.
 
-⚠️ Important: This system is designed as a screening aid, not a diagnostic tool.
+ Important: This system is designed as a screening aid, not a diagnostic tool.
 
-🎯 Objectives
+ Objectives
 
 Build a deep learning model to detect TB patterns in chest X-rays
 
@@ -62,7 +62,7 @@ Medical disclaimer included
 
 Dynamic model loading from external storage (Google Drive) to handle large model files
 
-🔗 Live App: (add your Streamlit URL here)
+🔗 Live App: https://tb-ai-tuberculosis-screening-4a6valmxhhvgpl8nlwbmkw.streamlit.app/
 
 🗂️ Project Structure
 tb-ai-tuberculosis-screening/
@@ -80,7 +80,7 @@ streamlit run app.py
 
 The model file is downloaded automatically at runtime.
 
-⚠️ Known Limitations (Very Important)
+⚠️ Known Limitations 
 
 This project intentionally documents its limitations to reflect real-world medical AI challenges:
 
@@ -132,11 +132,8 @@ Importance of sensitivity and specificity in medical AI
 
 Real-world generalization challenges in deep learning
 
-📄 Resume Summary (Optional)
-
-Developed and deployed a CNN-based Tuberculosis screening web application using chest X-ray images. Achieved high internal validation accuracy while identifying real-world limitations due to dataset bias and domain shift. Implemented cloud deployment with dynamic model loading and clinical metric evaluation.
 
 👤 Author
 
-Anya
+Neha J
 Computer Science Student | AI & Medical Imaging Enthusiast
